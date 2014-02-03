@@ -1,4 +1,6 @@
 *.class
+/nbproject
+.project
 
 # Package Files #
 *.jar
