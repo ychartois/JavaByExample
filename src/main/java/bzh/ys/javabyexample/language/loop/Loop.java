@@ -66,6 +66,20 @@ public class Loop {
         }
         
     }
+    
+    public static void testEmpty() {
+        
+        // before java6
+        if( test != null && test.size() == 0 ) {
+            
+        }
+        
+        // with java 6
+        if ( test.isEmpty() ) {
+            
+        }
+        
+    }
    
     
     public static void main(String[] args) {
